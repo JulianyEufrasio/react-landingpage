@@ -1,12 +1,13 @@
-import { useState } from 'react'
-import './App.css'
+import './App.css';
+import Nav from './Components/Nav';
 
 function App() {
 
-
-  return <div className='App'>
-    Hello Word
-  </div>
+  return (
+    <div>
+      <Nav/>
+    </div>
+  );
 }
 
 export default App;
