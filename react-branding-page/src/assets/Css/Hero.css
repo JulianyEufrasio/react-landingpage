@@ -1,0 +1,51 @@
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80vh;
+    overflow-y: hidden;
+}
+
+main img{
+    width: 50%;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+    gap: 20px;
+}
+.main-text{
+    font-size: 48px;
+    text-transform: uppercase;
+    font-weight: 900;
+    width: 500px;
+}
+
+.text-p{
+    color: #262626a6;
+    text-align: justify;
+    width: 500px;
+}
+
+.btns-sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+.out-btn{
+    background-color: transparent;
+    color: #262626;
+    border: 1px solid #262626;
+    padding: 16px 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: all .3s;
+    cursor: pointer;
+}
+.out-btn:hover{
+    background-color: #ececec;
+}

@@ -14,7 +14,7 @@ function Nav(){
                 <li><a href="#">Contact</a></li>
             </ul>
 
-            <button type="button">Login</button>
+            <button type="button" className='main-btn'>Login</button>
         </nav>
     );
 }
